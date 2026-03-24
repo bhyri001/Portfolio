@@ -192,8 +192,33 @@ span { color: var(--accent-secondary); }
 .hero-image {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.about-me-badge {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.about-me-badge h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--accent-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.about-me-badge p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
 }
 
 .profile-img-wrapper {
